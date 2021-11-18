@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".kt03.home.MaterialFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tab_01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="@color/purple_200"
+        android:minWidth="40dp"
+        android:minHeight="30dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:iconPadding="0dp"
+        app:cornerRadius="5dp"
+        android:text="自定义实现多Tab底部导航栏页面结构(1)"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tab_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="@color/purple_200"
+        android:minWidth="40dp"
+        android:minHeight="30dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:iconPadding="0dp"
+        app:cornerRadius="5dp"
+        android:text="testService测试"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tab_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="@color/purple_200"
+        android:minWidth="40dp"
+        android:minHeight="30dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:iconPadding="0dp"
+        app:cornerRadius="5dp"
+        android:text="broadcast 测试"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/tab_04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:backgroundTint="@color/purple_200"
+        android:minWidth="40dp"
+        android:minHeight="30dp"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+        app:iconPadding="0dp"
+        app:cornerRadius="5dp"
+        android:text="contentProvider 测试"
+        />
+
+</LinearLayout>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--    第一栏 学习 课表-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/tab_study"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="学习"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/tab_stable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="课表"
+            android:textColor="#666666"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1px"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/btn_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:src="@drawable/main_component_my_course_sign" />
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="收藏"
+                android:textColor="#333333"
+                app:icon="@drawable/main_component_my_course_collect"
+                app:iconGravity="top"
+                app:iconSize="20dp"
+                app:iconTint="@null" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="问答"
+                android:textColor="#333333"
+                app:icon="@drawable/main_component_my_course_question"
+                app:iconGravity="top"
+                app:iconSize="20dp"
+                app:iconTint="@null" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="笔记"
+                android:textColor="#333333"
+                app:icon="@drawable/main_component_my_course_note"
+                app:iconGravity="top"
+                app:iconSize="20dp"
+                app:iconTint="@null" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="手记"
+                android:textColor="#333333"
+                app:icon="@drawable/main_component_my_course_handnote"
+                app:iconGravity="top"
+                app:iconSize="20dp"
+                app:iconTint="@null" />
+
+            <com.google.android.material.button.MaterialButton
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:text="下载"
+                android:textColor="#333333"
+                app:icon="@drawable/main_component_my_course_download"
+                app:iconGravity="top"
+                app:iconSize="20dp"
+                app:iconTint="@null" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!--    第一栏 学习 课表-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="16dp"
+        android:orientation="horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="我的课程"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的专栏"
+            android:textColor="#666666"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tab_add_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/purple_200"
+            android:minWidth="40dp"
+            android:minHeight="30dp"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:iconPadding="0dp"
+            app:cornerRadius="5dp"
+            android:text="增加课程"
+           />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tab_delete_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/teal_700"
+            android:minWidth="40dp"
+            android:minHeight="30dp"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:iconPadding="0dp"
+            android:text="删除课程"
+        />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tab_update_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="@color/teal_200"
+            android:minWidth="40dp"
+            android:minHeight="30dp"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            app:iconPadding="0dp"
+            android:text="更新课程"
+          />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/bt01"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:backgroundTint="@color/purple_700"
+        android:insetTop="0dp"
+        android:insetBottom="0dp" />
+
+    <Button
+        android:id="@+id/bt02"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/bt01"
+        android:backgroundTint="@color/purple_200"
+        android:layout_below="@+id/bt01"
+        android:insetTop="0dp"
+        android:insetBottom="0dp" />
+
+    <Button
+        android:id="@+id/bt03"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/bt02"
+        android:backgroundTint="@color/purple_200"
+        android:layout_below="@+id/bt02"
+        android:insetTop="0dp"
+        android:insetBottom="0dp" />
+
+    <Button
+        android:id="@+id/bt04"
+        android:layout_width="72dp"
+        android:layout_height="33dp"
+        android:layout_toRightOf="@id/bt03"
+        android:backgroundTint="@color/purple_200"
+        android:layout_below="@+id/bt03"
+        android:insetTop="0dp"
+        android:insetBottom="0dp" />
+
+</RelativeLayout>

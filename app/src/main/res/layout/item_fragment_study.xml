@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/poster_image"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon_large1"
+            android:layout_gravity="center_vertical"
+            android:scaleType="fitCenter"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/item_course_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="移动端架构师体系课"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                >
+            </TextView>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/item_course_label"
+                style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:backgroundTint="#FBF5E5"
+                android:padding="0dp"
+                android:textColor="#B49D70"
+                android:text="架构师体系课"
+                android:gravity="center"
+                android:insetBottom="0dp"
+                android:insetTop="0dp"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:id="@+id/item_course_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="已学.100%"
+                android:textColor="#666666"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:gravity="center_vertical"
+                />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/action_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_more_vertical"
+            android:layout_gravity="bottom"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#f3f3f3"/>
+</LinearLayout>
