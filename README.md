@@ -2,7 +2,7 @@
 
 慕课网 https://www.imooc.com/learn/1307 android2021 sourceCode
 
-<div align=center><img width="300" height="400" src="https://user-images.githubusercontent.com/26602893/142963903-14eb9ae8-4763-434f-af0e-a54840d2f8a4.jpg"/></div>
+<div align=center><img width="300" height="420" src="https://user-images.githubusercontent.com/26602893/142963903-14eb9ae8-4763-434f-af0e-a54840d2f8a4.jpg"/></div>
 
 <div align=center><img width="300" height="400" src="https://user-images.githubusercontent.com/26602893/142963924-325e9150-9be6-4835-83a7-cdf0f73414db.jpg"/></div>
 
